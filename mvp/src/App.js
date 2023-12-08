@@ -14,7 +14,7 @@ const App = () => {
       <div>
         <Hamburger toggled={isOpen} toggle={setOpen} />
         {isOpen && (
-          <nav>
+          <nav className="hamburger-menu">
             <ul>
               <li>
                 <Link to="/profile" onClick={() => setOpen(false)}>Profile</Link>

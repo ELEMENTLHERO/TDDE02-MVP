@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const MathChapter = ({ courseName, chapters }) => {
   return (
-    <div>
+    <div className="math-chapter-container">
       <h1>{courseName}</h1>
       <ul>
         {chapters.map((chapter, index) => (
